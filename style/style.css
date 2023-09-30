@@ -130,6 +130,7 @@ font-family: Verdana;
         justify-content: center;
         align-items: center;
         gap: 30px;
+        margin-top: 25px;
       }
 
 .grid-item img {
@@ -144,7 +145,8 @@ font-family: Verdana;
         gap: 100px;
         text-decoration: none;
         color: black;
-        font-size: 15px;
+        font-size: 25px;
+        margin-top: 150px;
 }
 
 
@@ -189,4 +191,8 @@ input[type="text"] {
 
 .delivery {
         text-align: center;
+}
+
+.fashion {
+        margin-top: 200px;
 }
