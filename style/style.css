@@ -130,6 +130,10 @@ font-family: Verdana;
         padding: 10px;
       }
 
+.grid-item {
+        
+}
+
 .list {
         list-style: none;
         display: flex;
@@ -138,8 +142,9 @@ font-family: Verdana;
         gap: 100px;
         text-decoration: none;
         color: black;
-        font-size: medium;
+        font-size: 15px;
 }
+
 
 .footer {
        display: flex;
@@ -160,4 +165,19 @@ input[type="text"] {
         border: none;
         outline: none;
         border-bottom: 1px solid #ccc;
+}
+
+.delivery li {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+}
+
+.social-media li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
 }
