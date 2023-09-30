@@ -93,6 +93,8 @@ font-family: Verdana;
 .party-img {
         width: 100px;
         height: 100px;
+        display: flex;
+        justify-content: space-between;
 }
 .container1 {
         width: 600px;
@@ -116,6 +118,10 @@ font-family: Verdana;
         background-color: rgb(238,238,238);
         display: flex;
         margin-right: 30px;
+}
+
+.container1, .container2, .container3:hover {
+        cursor: pointer;
 }
 
 .party-section {
@@ -153,7 +159,8 @@ font-family: Verdana;
 .footer {
        display: flex;
        justify-content: space-between;
-       padding: 500px;
+       padding: 400px;
+       font-size: 16px;
 }
 
 h6 {
@@ -185,12 +192,14 @@ input[type="text"] {
 }
 
 .social-media {
-        padding-right: 300px;
+        padding-right: 500px;
         text-align: center;
 }
 
 .delivery {
         text-align: center;
+        padding-left: 100px;
+        margin-top: -300px;
 }
 
 .fashion {
