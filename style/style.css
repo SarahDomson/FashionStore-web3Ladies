@@ -127,11 +127,13 @@ font-family: Verdana;
 .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
       }
 
 .grid-item {
-        
+
 }
 
 .list {
