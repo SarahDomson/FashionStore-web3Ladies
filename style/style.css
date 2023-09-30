@@ -130,8 +130,34 @@ font-family: Verdana;
         padding: 10px;
       }
 
-.footer {
+.list {
+        list-style: none;
         display: flex;
-        justify-content: space-between;
-        padding: 300px;
+        align-items: center;
+        justify-content:center;
+        gap: 100px;
+        text-decoration: none;
+        color: black;
+        font-size: medium;
+}
+
+.footer {
+       display: flex;
+       justify-content: space-between;
+       padding: 300px;
+}
+
+h6 {
+        font-size: 15px;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}
+
+input[type="text"] {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid #ccc;
 }
