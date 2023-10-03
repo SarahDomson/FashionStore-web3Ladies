@@ -155,6 +155,7 @@ font-family: Verdana;
        justify-content: space-between;
        padding: 400px;
        font-size: 16px;
+       margin-top: -180px;
 }
 
 h6 {
@@ -212,6 +213,5 @@ input[type="text"] {
 
 .image {
         display: flex;
-        padding-left: 50px;
         padding-top: 30px;
 }
