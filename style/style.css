@@ -209,3 +209,9 @@ input[type="text"] {
 .fashion {
         margin-top: 200px;
 }
+
+.image {
+        display: flex;
+        padding-left: 50px;
+        padding-top: 30px;
+}
