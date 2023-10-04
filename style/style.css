@@ -107,6 +107,10 @@ font-family: Verdana;
          width: 450px;
 }
 
+.grid-item p{
+        font-size: 14px;
+}
+
 .list {
         list-style: none;
         display: flex;
