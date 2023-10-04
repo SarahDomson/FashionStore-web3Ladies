@@ -120,12 +120,13 @@ font-family: Verdana;
 }
 
 
-.footer {
+.details {
        display: flex;
        justify-content: space-between;
        padding: 400px;
        font-size: 16px;
        margin-top: -180px;
+       margin-bottom: -200px;
 }
 
 h6 {
@@ -143,45 +144,49 @@ input[type="text"] {
         border-bottom: 1px solid #ccc;
 }
 
-.delivery li {
+.footer ul {
         list-style: none;
-        float: left;
-        font-size: 13px;
-}
-
-.del {
         display: flex;
-        gap: 40px;
-        justify-content: left;
+        gap: 20px;
+        font-size: 14px;
 }
 
-.social-media li {
-        list-style: none;
-        float: right;
-}
-
-.social-media {
-        padding-right: 500px;
-        text-align: center;
-}
-
-.media {
+.fashion1 {
         display: flex;
-        gap: 40px;
-        justify-content: right;
-}
-
-.delivery {
-        text-align: center;
-        padding-left: 100px;
-        margin-top: -300px;
-}
-
-.fashion {
-        margin-top: 200px;
+        margin-top: 80px;
+        
 }
 
 .image {
         display: flex;
         padding-top: 30px;
 }
+
+.text {
+        position: absolute;
+        margin-top: 180px;
+        padding-left: 280px;
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+}
+
+.text1 {
+        position: absolute;
+        margin-top: 180px;
+        padding-left: 380px;
+        font-size: 50px;
+        font-family: sans-serif;
+        color: white;
+}
+
+.media {
+        display: flex;
+        gap: 20px;
+        float: right;
+        padding-right: 600px;
+        margin-top: -30px;
+}
+
+
+
